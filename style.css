@@ -1,0 +1,24 @@
+.text-block {
+        background-color: rgb(159, 125, 190);
+}
+div {
+        background: #def0fc;
+        padding: 10px;
+        border-left: 3px solid #3498db;
+   }
+span {
+        background: #C5E2BD;
+        padding: 0 2px;
+        border: 1px dotted maroon; 
+}
+q, blockquote {
+        position: center;
+        background: lightgreen;
+        color: darkgreen;
+        text-align: center;
+}
+.date {
+    color: red;
+    font-style: italic;
+}
+#tagline{ color: orange;}
