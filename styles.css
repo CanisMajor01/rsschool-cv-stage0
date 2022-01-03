@@ -45,6 +45,7 @@ h2 {
 .header{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     border-bottom: 1px solid black;
     padding-bottom: 10px;
@@ -53,20 +54,30 @@ h2 {
 .header__img{
     border-radius: 35% 10%;
     overflow: hidden;
-    margin-right: 20px;
-    border: 1px solid #F5F5F5;
+    margin: 10px 0 0 20px;
+    width: 30%;
 }
 
 .header__text {
     display: flex;
     font-size: 25px;
-    justify-content: left;
     flex-wrap: wrap;
     width: 400px;
     height: 200px;
-    align-content: center;
-    margin: 0;
+    align-content: space-around;
+    margin: 70px 0 0 0;
 }
+
+.header__menu {
+    font-size: 25px;
+    width: 85%;
+}
+
+ul#menu li {
+    display:inline;
+    padding: 0 30px;
+}
+
 
 .header__text_name{
     font-size: 40px;
@@ -81,14 +92,15 @@ h2 {
     flex-direction: row;
     flex-wrap: wrap;
     flex: 1 1 auto;
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin: 0 0 -40px 0;
+    
+    align-content: flex-start;
+    
+    margin: 0 0 0 0;
 }
 
 .body__about{
-    width: 80%;
-    margin: 20px auto;
+    width: 85%;
+    margin: 40px auto;
     border-radius: 50px;
     padding: 10px 40px;
 }
@@ -104,30 +116,40 @@ section {
     border: solid 1px, black;
 }
 
+code {
+    font-size: 30px;
+}
+
 .footer{
-    height: 110px;
+    height: 150px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    max-width: 1180px;
+    justify-content: space-between;
+    max-width: 1440px;
     border-top: solid 1px black;
     font-size: 20px;
     margin: 0;
     padding: 0;
-    line-height: 1.2em;
+    line-height: 1.6em;
 }
-
-a{
-    align-self: flex-end;
-    justify-content: end;
-}
-
 .footer > ul li {
     display: inline;
 }
 
-time{
+.footer_misc {
+    justify-content: space-between;
+    
+    
+}
+
+.footer > .footer_misc > a {
     align-self: flex-end;
     justify-content: end;
+}
+
+
+.footer > .footer_misc > time{
+    
+    justify-content: flex-start;
 }
