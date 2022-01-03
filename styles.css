@@ -5,12 +5,12 @@
 html,
 body {
     height: 100%;
-    background-color: #b1b1b1;
+    background-color: #4d4339;
     font-family: Helvetica, sans-serif;
 }
 
 div {
-    background-color: #ebe8e8;
+    background-color: #c7af93;
 }
 
 h2 {
@@ -69,8 +69,9 @@ h2 {
 }
 
 .header__menu {
-    font-size: 25px;
+    font-size: 30px;
     width: 85%;
+    font-family: Garamond;
 }
 
 ul#menu li {
@@ -110,7 +111,7 @@ section {
     margin: 45px auto;
     padding: 30px;
     font-size: 30px;
-    background-color: #fffafa;
+    background-color: #ede0cf;
     border-radius: 10%;
     max-height: fit-content;
     border: solid 1px, black;
