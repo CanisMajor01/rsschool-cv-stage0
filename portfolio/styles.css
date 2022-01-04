@@ -1,3 +1,152 @@
-* {
-    margin: 0;
+body, html{
+    max-width: 100%;
+    background-color: #000000;
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+.wrapper {
+    max-width: 1440px;
+    height: 910px;
+    background-color: #000000;
+    color: #FFFFFF;
+    background-image: url('./assets/img/bg.jpg');
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    
+
+}
+
+.header__logo {
+    margin-left: 20px;
+}
+
+.header__nav {
+    flex: 1 1 auto;
+    width: 499px;
+    height: 50px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 50px;
+    line-height: 0.7em;
+    text-align: end;
+
+}
+
+ul#nav li {
+    display:inline;
+    padding:0 20px;
+}
+
+.header__language_switch {
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 70px;
+    height: 50px;
+}
+
+.hero   {
+    position: relative;
+    top: 150px;
+    left: 80px;
+    font-size: 20px;
+    line-height: 40px;
+    width: 490px;
+    height: 780px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    
+    
+}
+
+h1 {
+    font-family: Merriweather;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 0;
+
+}
+
+.hero__button {
+    width: 220px;
+    height: 55px;
+    background-color: #BDAE82;
+    text-align: center;
+    color: black;
+    line-height: 3em;
+    font-size: 20px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+
+}
+
+.content{
+    flex: 1 1 auto;
+    margin-top: 15px;
+}
+
+.content__Skills {
+    width: 1440px;
+    height: 482px;
+}
+
+.content__Skills_title {
+    width: 700px;
+    height: 80px;
+}
+
+.section-title-line{
+position: absolute;
+height: 2px;
+left: 0%;
+right: 0%;
+top: 39px;
+background: #BDAE82;
+border-radius: 0px;
+}
+
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 1440px;
+    height: 150px;
+    display: flex;
+    background-color: #000000;
+    justify-content: space-evenly;
+    line-height: 7em;
+    align-items: center;
+    
+
+}
+
+.footer > div, .footer > p {
+    margin: 0, 20px;
+}
+
+.RSS {
+    flex: 1 1 auto;
+    text-align: center;
 }
